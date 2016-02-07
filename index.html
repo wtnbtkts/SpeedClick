@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SpeedClick</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<p>枠がグレーのときは同じ色のボタン、枠が黒のときは同じマークのボタンをクリックしよう！</p>
+	<table>
+		<tr>
+			<td id="td5"><div id="div5"></div></td>
+		</tr>
+		<tr>
+			<td id="td4"><div id="div4"></div></td>
+		</tr>
+		<tr>
+			<td id="td3"><div id="div3"></div></td>
+		</tr>
+		<tr>
+			<td id="td2"><div id="div2"></div></td>
+		</tr>
+		<tr>
+			<td id="td1"><div id="div1"></div></td>
+		</tr>
+		<tr>
+			<td id="td0"><div id="div0"></div></td>
+		</tr>
+	</table>
+
+	<hr>
+
+	<button onclick="ans(0)" id="btn_red">♥</button>
+	<button onclick="ans(1)" id="btn_blue">♦</button>
+	<button onclick="ans(2)" id="btn_yellow">♣</button><br>
+	<button onclick="ans(3)" id="btn_green">♠</button>
+	<button onclick="ans(4)" id="btn_purple">◎</button>
+	<button onclick="ans(5)" id="btn_aqua">★</button>
+
+	<p>あと：<span id="nokori"></span>枚</p>
+	<p>経過時間:<span id="time"></span>秒</p>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

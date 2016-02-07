@@ -1,0 +1,62 @@
+body {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 200px;
+	height: 50px;
+}
+
+div{
+	width:200px;
+	height: 50px;
+	margin:auto;
+	color:white;
+	line-height: 50px;
+}
+
+button {
+	margin-top: 20px;
+	font-size: 20px;
+	width: 80px;
+}
+
+#btn_red {
+	background-color: red;
+	color: white;
+	border-color:red;
+}
+
+#btn_blue {
+	background-color: blue;
+	color: white;
+	border-color:blue;
+}
+
+#btn_yellow {
+	background-color: yellow;
+	color: white;
+	border-color:yellow;
+}
+
+#btn_green {
+	background-color: green;
+	color: white;
+	border-color:green;
+}
+
+#btn_purple {
+	background-color: purple;
+	color: white;
+	border-color:purple;
+}
+
+#btn_aqua {
+	background-color: aqua;
+	color: white;
+	border-color:aqua;
+}
